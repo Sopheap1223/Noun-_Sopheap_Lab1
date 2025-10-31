@@ -1,0 +1,24 @@
+{
+  "name": "noun-_sopheap_lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "eslint": "^9.38.0",
+    "express": "^5.1.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "globals": "^16.4.0"
+  }
+}
