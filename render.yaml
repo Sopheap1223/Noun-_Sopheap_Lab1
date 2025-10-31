@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lab1-cicd-app
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
